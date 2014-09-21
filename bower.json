@@ -1,0 +1,6 @@
+{
+  "name": "nerd_project",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}

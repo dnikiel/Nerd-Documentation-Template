@@ -1,0 +1,61 @@
+/* all app scss styles here */
+
+/* variables */
+
+$bluebg: #ececfc;
+$blueborder: #d5d5d5;
+$bluetext: #9ea2f2;
+
+$yellowbg: #ffffc8;
+$yellowtext: #e8dc89;
+
+/* media quaries */
+
+@media only screen and (min-width: 40.063em) {
+    .panel {
+        float: left;
+    }
+} /* min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) {
+    .panel {
+        width: rem-calc(300);
+    }
+}
+
+/* main styles */
+
+img.logo {
+    max-width: rem-calc(120);
+}
+.title-area li a {
+    line-height: rem-calc(90);
+}
+.top-bar {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+}
+.banner {
+    background-color: $bluebg;
+    border-top: 1px solid $blueborder;
+    border-bottom: 1px solid $blueborder;
+}
+h1.site-title {
+    margin-top: 4rem;
+    color: $bluetext;
+    font-weight: 300;
+}
+.main-page {
+    margin-top: rem-calc(50);
+}
+.panel a {
+    color: $body-font-color;
+}
+.panel a:hover {
+    color: $bluetext;
+}
+.guide h2, .guide h3 {
+    color: $bluetext;
+}
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string, .token.variable {
+    background: none !important;
+}
